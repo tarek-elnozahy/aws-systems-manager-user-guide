@@ -251,6 +251,8 @@ It is recommended the user who executes the automation have the **AmazonSSMAutom
                              "ec2:CreateVpcEndpoint",
                              "ec2:DeleteVpcEndpoints",
                              "ec2:ModifyVpcEndpoint",
+                             "ec2:AttachVolume",
+                             "ec2:DetachVolume",
                              "ec2:Describe*"
                           ],
                           "Resource": "*",
